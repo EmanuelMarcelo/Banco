@@ -1,34 +1,3 @@
-/* 
-arquivos a serem instalados
-    npm init -y
-    npm install playright
-    npm install cucumber
-    npm install expect
-    npm install chai
-    
-    códigos não utilizados e salvos aqui.
-
-Gerador de codigo
-    npx playwright codegen
-
-Abre a pagina e mostra o processo
-     {headless:false, slowMo: 50} tem que estar dentro de chromium.launch()
-
-Atribui tempo de espera para carregamento da pagina
-     await page.waitForTimeout(2000)
-
-Imprime o resultado no console
-     console.log('contem: '+ contem)
-
-Tira print da pagina
-     await page.screenshot({path:'tudo.png'})
-
-     { storageSate: 'state.json' }
-
-Abre um atalho para codificar os testes
-     npx playwright codegen + site
-
-*/
 const { Given, Then, When, BeforeAll, AfterAll } = require('cucumber');
 const {  expect } = require('expect');
 const { chromium } = require('playwright');
