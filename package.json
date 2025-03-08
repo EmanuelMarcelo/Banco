@@ -1,0 +1,17 @@
+{
+  "name": "banco",
+  "version": "1.0.0",
+  "main": "testB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "expect": "^29.7.0",
+    "playwright": "^1.51.0"
+  }
+}
