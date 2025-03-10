@@ -13,6 +13,10 @@ let browser, context, page;
 //abrindo a pagina
     await page.goto('https://rhuantac.github.io/vaga-qa/')
 
+//testando o titulo da pagina
+    const pageTitle = await page.title();
+    expect(pageTitle).toBe('Desafio QA');
+
 // clicando em Entendi
     await page.getByRole('button', { name: 'Entendi' }).click();
 
